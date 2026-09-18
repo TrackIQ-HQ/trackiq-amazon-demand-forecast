@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-demand-forecast",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Demand Forecast and Reorder Plan \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-demand-forecast",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-demand-forecast",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "inventory"
+  ]
+}

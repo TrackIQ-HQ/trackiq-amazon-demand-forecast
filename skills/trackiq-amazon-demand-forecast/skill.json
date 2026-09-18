@@ -1,0 +1,35 @@
+{
+  "name": "trackiq-amazon-demand-forecast",
+  "title": "TrackIQ: Amazon Demand Forecast and Reorder Plan",
+  "category": "inventory",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Turns trailing sales and last year's seasonal shape into a week-by-week demand forecast per Amazon product, then converts it into order quantities and order-by dates that account for lead time, safety stock and the service level the brand wants \u2014 with the forecast error stated so nobody treats it as certain. Use when the user asks how much to order, a demand forecast, a reorder plan, purchase orde",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_inventory_snapshot",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": true,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-demand-forecast",
+  "license": "MIT"
+}
