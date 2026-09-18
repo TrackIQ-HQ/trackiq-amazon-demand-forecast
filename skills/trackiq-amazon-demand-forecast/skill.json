@@ -4,7 +4,7 @@
   "category": "inventory",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Turns trailing sales and last year's seasonal shape into a week-by-week demand forecast per Amazon product, then converts it into order quantities and order-by dates that account for lead time, safety stock and the service level the brand wants \u2014 with the forecast error stated so nobody treats it as certain. Use when the user asks how much to order, a demand forecast, a reorder plan, purchase orde",
+  "summary": "Turns trailing sales and last year's seasonal shape into a week-by-week demand forecast per Amazon product, then converts it into order quantities and order-by dates that account for lead time, safety stock and the service level the brand wants \u2014 with the forecast error stated so nobody treats it as certain.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
